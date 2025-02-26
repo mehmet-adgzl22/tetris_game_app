@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right , #32bdee, #40b4ff, #70a6ff, #a592ff, #d579ea);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2{
+   font-size: 30px;
+   font-weight: bolder;
+}
+
+#tetris{
+    background-color: white;
+    box-shadow: 0 0 10px rgb(163, 143, 143);
+    border-radius: 10px;
+}
